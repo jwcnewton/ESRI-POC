@@ -1,0 +1,103 @@
+html, body, #container, #map {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.auth-focus {
+    z-index: 999;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:white; 
+    width: 25%;
+    height: 25%;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-shadow: 0 10px 5px -5px rgba(0,0,0,0.4);
+}
+
+#toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+
+#toast.show {
+  visibility: visible;
+}
+
+
+.button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.buttonSave {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonSave:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.save-container {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  padding: 20px;
+}
+
+.inactive {
+  pointer-events: none !important;
+  opacity: 0.3;
+}
+
+.auth-focus .content {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: grid;
+  font-size: 15px;
+  text-transform: uppercase;
+}

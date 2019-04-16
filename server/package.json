@@ -1,0 +1,19 @@
+{
+  "name": "esri-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "simple-oauth2": "^2.2.1",
+    "superagent": "^4.1.0",
+    "superagent-logger": "^1.1.0"
+  }
+}

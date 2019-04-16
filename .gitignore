@@ -1,0 +1,20 @@
+# Node
+node_modules
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# istanbul
+coverage
+
+# docker variables
+server-variables.env
+
+.vscode

@@ -1,0 +1,22 @@
+{
+  "name": "ersi-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "jasmine-ajax": "^3.4.0",
+    "karma": "^0.12.16",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-dojo": "0.0.1",
+    "karma-jasmine": "^0.1.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "simple-oauth2": "^2.2.1"
+  }
+}
