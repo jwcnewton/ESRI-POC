@@ -15,6 +15,6 @@ Desktop.ini
 coverage
 
 # docker variables
-server-variables.env
+# server-variables.env
 
 .vscode
