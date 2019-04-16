@@ -12,7 +12,7 @@ Then move into the folder
 cd ESRI-POC
 ```
 
-Update `server-variables.env` with github client id and secret
+Update `server-variables.env` with github client id and secret. See [Setting up Github oauth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/) if you're unsure how set this up
 
 ```yml
 AUTHCLIENT_ID=XXX
