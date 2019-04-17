@@ -18,3 +18,5 @@ coverage
 server-variables.env
 
 .vscode
+
+package-lock.json
