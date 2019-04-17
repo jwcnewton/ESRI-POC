@@ -29,6 +29,14 @@ AUTHCLIENT_SECRET=XXX
 docker-compose up
 ```
 
+## Client APP
+
+> localhost:8080
+
+## API
+
+> localhost:8000
+
 # Dependencies 
 
 [Docker](https://www.docker.com/)
