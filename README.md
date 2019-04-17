@@ -29,6 +29,25 @@ AUTHCLIENT_SECRET=XXX
 docker-compose up
 ```
 
+## Running the tests
+
+Install Karma test runnner globally
+
+```bash
+npm i -g karma
+```
+
+Then move into the client folder
+
+```bash
+cd ESRI-POC/client
+```
+
+To start Karma
+```bash
+karma start
+```
+
 ## Client APP
 
 > localhost:8080
