@@ -12,7 +12,6 @@ services:
       - local-app
     ports:
       - "27017:27017"
-    command: "--smallfiles"
 
   mongo-seed:
     image: fvilers/mongo-seed:1.0.0
@@ -44,7 +43,7 @@ services:
       - server-variables.env
     networks:
       - local-app
-    command: "npm install && npm start"
+    command: bash -c "npm install && npm start"
     links:
       - mongo
 
@@ -62,4 +61,4 @@ services:
       - "8080:8080"
     networks:
       - local-app
-    command: "npm install && npm start"
+    command: bash -c "npm install && npm start"
